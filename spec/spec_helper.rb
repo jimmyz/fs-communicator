@@ -1,8 +1,6 @@
 require 'spec'
 
-$LOAD_PATH.unshift(File.dirname(__FILE__))
-
-require 'fs_communicator'
+require File.join(File.dirname(__FILE__), '..', 'lib', 'fs_communicator')
 
 Spec::Runner.configure do |config|
   
